@@ -5,6 +5,7 @@ import Cursor from "@/Components/Cursor";
 import React from "react";
 
 
+
 const vazir = LocalFont({
   src: [
     {
@@ -47,10 +48,10 @@ export default function RootLayout({
   return (
       <html lang="fa" className={vazir.variable}>
       <body
-          className={`antialiased min-h-screen h-screen`}
+          className={`antialiased min-h-screen h-screen overflow-hidden`}
       >
       <Cursor/>
-
+      
       {children}
       </body>
       </html>

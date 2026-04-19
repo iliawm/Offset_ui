@@ -1,2 +1,59 @@
 @import "tailwindcss";
+body{
 
+}
+.scroll-hidden {
+    scrollbar-width: none;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.scroll-hidden-y {
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.scroll-hidden-y::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.scroll-hidden-x {
+    scrollbar-width: none;
+    overflow-x: auto;
+}
+
+.scroll-hidden-x::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+}.scroll-hidden {
+     scrollbar-width: none;
+ }
+
+.scroll-hidden::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.scroll-hidden-y {
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.scroll-hidden-y::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.scroll-hidden-x {
+    scrollbar-width: none;
+    overflow-x: auto;
+}
+
+.scroll-hidden-x::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+}

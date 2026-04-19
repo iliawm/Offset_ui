@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.27",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.4.1",
     "next": "16.1.7",
+    "postcss": "^8.5.8",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 export function Hero() {
     const HeroSec={
         HeadTitle:"همیشه بهترین خدمات پزشکی را ارائه داده ایم",
@@ -8,8 +9,8 @@ export function Hero() {
         LeftSideImage:"/placeholder.png"
     }
     return (
-        <section className="w-full h-fit bg-[#223645] flex flex-col " >
-            <main className="flex flex-col lg:flex-row p-6 py-20  gap-25 lg:p-20 lg:justify-center items-center w-full" dir="rtl">
+        
+            <main className="flex flex-col lg:flex-row p-6 relative gap-10 lg:p-20 lg:justify-center items-center w-full h-fit " dir="rtl">
                     <div className={"flex-col flex gap-9 lg:gap-7 w-full"}>
                         <h1 className="text-5xl text-white font-semibold leading-13 lg:leading-20 lg:text-7xl lg:max-w-200 " >
                             {HeroSec.HeadTitle}
@@ -28,6 +29,6 @@ export function Hero() {
                         <Image src={`${HeroSec?.LeftSideImage}`} width={400} height={400} alt="" className={"rounded-2xl w-full h-full lg:min-h-[380px]"} loading={"eager"}/>
                     </div>
             </main>
-        </section>
+       
     )
 }

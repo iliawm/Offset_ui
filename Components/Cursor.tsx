@@ -20,7 +20,7 @@ export default function Cursor() {
    
     return (
         <div
-            className="fixed w-24 h-24 bg-white/50 rounded-full pointer-events-none z-50"
+            className="fixed w-14 h-14 bg-gray-600/50 rounded-full pointer-events-none z-50 transition-all duration-200 ease-linear hidden md:block"
             style={{
                 transform: `translate(${position.x - 24}px, ${position.y -24}px)`,
             }}
