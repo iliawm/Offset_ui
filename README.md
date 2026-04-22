@@ -26,3 +26,12 @@ A modern and minimal UI component library built with **Next.js 15**, **TypeScrip
 - **Package Manager:** [PNPM](https://pnpm.io/)
 
 ## 📁 Project Structure
+Offset_ui/
+├── app/ # App Router routes
+├── Components/ # Core UI Library (Buttons, Cards, Modals, etc.)
+├── lib/ # Utility functions
+├── models/ # TypeScript type definitions
+├── public/ # Static assets
+├── next.config.ts # Next.js configuration
+├── postcss.config.mjs # PostCSS/Tailwind config
+└── tsconfig.json # TypeScript configuration
