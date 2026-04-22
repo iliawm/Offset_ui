@@ -6,7 +6,9 @@
 ```markdown
 # 🧩 Offset UI
 
-A modern and minimal UI component library built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This project aims to provide ready-to-use, customizable components featuring an "Offset" design style (characterized by layered shadows and distinct depth).
+A modern and minimal UI component library built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**.
+ This project aims to provide ready-to-use, customizable components featuring an
+"Offset" design style (characterized by layered shadows and distinct depth).
 
 ## ✨ Features
 
